@@ -73,6 +73,13 @@ h6 {
   line-height: 45px;
 }
 
+.video-container iframe{
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
 .scroll-to-top:focus, .scroll-to-top:hover {
   color: white;
 }
