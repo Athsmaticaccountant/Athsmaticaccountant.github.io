@@ -81,6 +81,12 @@ h6 {
     overflow: hidden;
 }
 
+video {
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+
 .video-container iframe {
     position: absolute;
     top:0;
@@ -101,6 +107,98 @@ h6 {
   font-weight: 800;
 }
 
+.main{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+}
+
+.portfolio-one{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio1/portfolio-1-masthead.jpg");
+}
+.portfolio-one h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.portfolio-one h3{
+	color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+.portfolio-two{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio2/header.jpg");
+}
+.portfolio-two h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.portfolio-three{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio 3/skypilot.jpg");
+}
+.portfolio-three h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.portfolio-four{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio4/portfolio-1.jpg");
+}
+.portfolio-five{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio5/header.jpg");
+}
+.portfolio-five h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.portfolio-six{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio6/header.jpg");
+}
+.portfolio-six h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -109,11 +207,12 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
+
+
 
 .masthead h1 {
   font-size: 4rem;
@@ -126,35 +225,6 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
-
-.portfolio_1 {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead-portfolio");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.portfolio_1 h1 {
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 992px) {
-  .portfolio_1 {
-    height: 100vh;
-  }
-  .portfolio_1 h1 {
     font-size: 5.5rem;
   }
 }
@@ -387,6 +457,63 @@ a:hover, a:focus, a:active {
   border-color: #155d74 !important;
 }
 
+.btn-cv {
+  background-color: #1D809F !important;
+  border-color: #1D809F !important;
+  color: #fff !important;
+}
+
+.btn-cv:hover, .btn-cv:focus, .btn-cv:active {
+	background: url('../img/Profession.gif') repeat top left;
+	background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-color: #155d74 !important;
+}
+
+.btn-sk {
+  background-color: #1D809F !important;
+  border-color: #1D809F !important;
+  color: #fff !important;
+}
+
+.btn-sk:hover, .btn-sk:focus, .btn-sk:active {
+	background: url('../img/Skills.gif') repeat top left;
+	background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-color: #155d74 !important;
+}
+
+.btn-pj {
+  background-color: #1D809F !important;
+  border-color: #1D809F !important;
+  color: #fff !important;
+}
+
+.btn-pj:hover, .btn-pj:focus, .btn-pj:active {
+	background: url('../img/buttonHover.gif') repeat top left;
+	background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-color: #155d74 !important;
+}
+
+.btn-tr {
+  background-color: #1D809F !important;
+  border-color: #1D809F !important;
+  color: #fff !important;
+}
+
+.btn-tr:hover, .btn-tr:focus, .btn-tr:active {
+	background: url('../img/WhyMe.gif') repeat top left;
+	background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border-color: #155d74 !important;
+}
+
+
 .btn-secondary {
   background-color: #ecb807 !important;
   border-color: #ecb807 !important;
@@ -417,4 +544,13 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.text-outro {
+  color: #ffffff !important;
+}
+
+.outro-box {
+  background-color: #566a70 ;
+  padding: 10px ;
 }
