@@ -199,6 +199,40 @@ video {
 	color: white;
 }
 
+.portfolio-seven{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio7/Cover.jpg");
+}
+.portfolio-seven h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.portfolio-eight{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio8/Cover.jpg");
+}
+.portfolio-eight h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.portfolio-nine{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio9/Team letterhead.jpg");
+}
+.portfolio-nine h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+.videoWrapper > video {
+  width: 35%;
+  height: 35%;
+  object-fit: contain;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
