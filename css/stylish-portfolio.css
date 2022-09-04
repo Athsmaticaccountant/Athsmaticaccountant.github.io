@@ -160,7 +160,7 @@ video {
 
 
 .portfolio-two{
-	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio2/header.jpg");
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio2/Header.jpg");
 }
 .portfolio-two h1{
 	font-size: 4rem;
@@ -169,7 +169,7 @@ video {
 	color: white;
 }
 .portfolio-three{
-	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio 3/skypilot.jpg");
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio 3/skypilot.jpg");
 }
 .portfolio-three h1{
 	font-size: 4rem;
