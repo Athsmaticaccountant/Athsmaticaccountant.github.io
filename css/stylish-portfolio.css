@@ -175,7 +175,7 @@ video {
 	font-size: 4rem;
 	margin: 0;
 	padding: 0;
-	color: white;
+	color: black;
 }
 .portfolio-four{
 	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio4/portfolio-1.jpg");
