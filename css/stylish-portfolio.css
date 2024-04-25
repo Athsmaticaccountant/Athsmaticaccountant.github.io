@@ -227,6 +227,28 @@ video {
 	color: black;
 }
 
+.portfolio-ten{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio10/Cylinder_Header.png");
+}
+.portfolio-ten h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+
+.portfolio-eleven{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio11/with-wood.jpg");
+}
+.portfolio-eleven h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+
 .videoWrapper > video {
   width: 35%;
   height: 35%;
@@ -392,6 +414,7 @@ video {
   top: 0;
   bottom: 0;
   z-index: 1;
+  margin: auto auto;
 }
 
 .portfolio-item .caption .caption-content {
@@ -570,6 +593,14 @@ a:hover, a:focus, a:active {
 
 .bg-primary {
   background-color: #1D809F !important;
+}
+
+.bg-primary-pill {
+  background-color: #1D809F !important;
+  border-radius: 250px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-primary {
