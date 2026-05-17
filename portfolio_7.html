@@ -63,9 +63,28 @@
 <!-- Services -->
   <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
-      <div class="content-section-heading">
-        <h1 class="text-secondary mb-0">SUMMARY</h1>
-      </div>
+      <div class="row">
+			<div class="column">
+				<a class="btn btn-secondary btn-xll js-scroll-trigger" href="#vid">Video</a>
+			</div>
+			
+			<div class="column">
+				<a class="btn btn-secondary btn-xll js-scroll-trigger" href="#gal">Gallery</a>
+			</div>
+			
+		</div>	
+	
+	<div class="col-lg-10 mx-auto">
+          <p class="lead mb-5"> </p> 
+		  <hr>
+        </div>
+		
+      <div class="constent-section-heading">
+        <h1 class="text-secondary mb-0">SUMMARY
+		<br>
+		~
+		</h1>
+	</div>
 	  <p class="text-faded mb-0">
 			For my first of two capstones my team of 4 was tasked with creating a Stewart Platform for Unsupervised Machine Learning. To be put plainly, we were asked to create a machine that would
 			solve a marble maze using Neural Networks and / or machine learning. The goal of this project was to explore the clear challenges behind training a neural network on physical stimuli (Position, Velocity, and Acceleration), while
@@ -103,40 +122,32 @@ giving the machine a chance to re-set itself whenever an error was encountered. 
 			</p>
         </div>
       </div>
-	  <br><br>
-	  <div class="row">
-			<div class="column">
-				<a class="btn btn-secondary btn-xl js-scroll-trigger" href="#gal">Gallery</a>
-			</div>
-			<div class="column">
-				<a class="btn btn-secondary btn-xl js-scroll-trigger" href="#vid">Video</a>
-			</div>
-		</div>
+	  <br>
     </div>
   </section>
 	
   <!-- About -->
-  <section class="content-section bg-light" id="gal">
+  <section class="content-section bg-light">
     <div class="container text-center">
-	  <div class="row">
+	<video width="400" height="240" autoplay muted loop id="vid">
+		<source src="img/Portfolio7/Overview_Trim.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	
+	  <div class="row" id="gal">
 		<div class="column">
-			<img src="img/Portfolio7/Progress1.jpg">
-			<img src="img/Portfolio7/Progress3.jpg">
-			<img src="img/Portfolio7/OverviewFront.jpg">
+			<img src="img/Portfolio7/CompImg/Progress1.webp" alt="img/Portfolio7/Progress1.jpg">
+			<img src="img/Portfolio7/CompImg/Progress3.webp" alt="img/Portfolio7/Progress3.jpg">
+			<img src="img/Portfolio7/CompImg/OverviewFront.webp" alt="img/Portfolio7/OverviewFront.jpg">
 			
 		</div>
 		<div class="column">
-			<img src="img/Portfolio7/Progress2.jpg">
-			<img src="img/Portfolio7/Electronics.jpg">
+			<img src="img/Portfolio7/CompImg/Progress2.webp" alt="img/Portfolio7/Progress2.jpg">
+			<img src="img/Portfolio7/CompImg/Electronics.webp" alt="img/Portfolio7/Electronics.jpg">
 			<img src="img/Portfolio7/Tilting Motion.gif">
 			<img src="img/Portfolio7/Vertical Motion.gif">
 		</div>
 	</div>
-	
-	<video width="400" height="240" autoplay muted id="vid">
-		<source src="img/Portfolio7/Overview_Trim.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
 	
     </div>
   </section>

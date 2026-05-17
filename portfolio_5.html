@@ -63,30 +63,46 @@
 <!-- Services -->
   <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
-      <div class="content-section-heading">
-        <h1 class="text-secondary mb-0">SUMMARY</h1>
-      </div>
+      <div class="row">
+			<div class="column">
+				<a class="btn btn-secondary btn-xll js-scroll-trigger" href="#vid">Video</a>
+			</div>
+			
+			<div class="column">
+				<a class="btn btn-secondary btn-xll js-scroll-trigger" href="#gal">Gallery</a>
+			</div>
+			
+		</div>	
+	
+	<div class="col-lg-10 mx-auto">
+          <p class="lead mb-5"> </p> 
+		  <hr>
+        </div>
+		
+      <div class="constent-section-heading">
+        <h1 class="text-secondary mb-0">SUMMARY
+		<br>
+		~
+		</h1>
+	</div>
       <p class="text-faded mb-0">
 			While working at Stoko, I was asked to build a cyclic tester capable of running more than a million cycles, without failing, in order to test lifetime estimates of the company's product (an athletic tight that doubles as a knee brace).
 			The machine was designed to be as robust and modular as possible to adapt to an everchanging use-case, such as fabric pilling tests, stretch and recovery of fabric, and hardware ware and tear.
 			It features a powerline band pass filter to prevent motor noise from disrupting the microcontroller, a motor assembly that can be moved anywhere on a peg board, cycle counts, and a timer.
 		</p>
-<br><br>
-		<div class="row">
-			<div class="column">
-				<a class="btn btn-secondary btn-xl js-scroll-trigger" href="#gal">Gallery</a>
-			</div>
-			<div class="column">
-				<a class="btn btn-secondary btn-xl js-scroll-trigger" href="#vid">Video</a>
-			</div>
-		</div>
+<br>
     </div>
   </section>
 	
   <!-- About -->
-  <section class="content-section bg-light" id="gal">
+  <section class="content-section bg-light">
     <div class="container text-center">
-	  <div class="row">
+	<video width="400" height="240" autoplay muted loop id="vid">
+		<source src="img/Portfolio5/mov.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	
+	  <div class="row" id="gal">
 		<div class="column">
 			<img src="img/Portfolio5/CompImg/filter.webp" alt="img/Portfolio5/filter.jpg">
 			<img src="img/Portfolio5/CompImg/motorup.webp" alt="img/Portfolio5/motorup.jpg">
@@ -99,11 +115,6 @@
 			<img src="img/Portfolio5/CompImg/motorlow.webp" alt="img/Portfolio5/motorlow.jpg">
 		</div>
 	</div>
-	
-	<video width="400" height="240" autoplay muted id="vid">
-		<source src="img/Portfolio5/mov.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
 	
     </div>
   </section>

@@ -63,8 +63,28 @@
 <!-- Services -->
   <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
-      <div class="content-section-heading">
-        <h1 class="text-secondary mb-0">SUMMARY</h1>
+      <div class="row">
+			<div class="column">
+				<a class="btn btn-secondary btn-xll js-scroll-trigger" href="#vid">Video</a>
+			</div>
+			
+			<div class="column">
+				<a class="btn btn-secondary btn-xll js-scroll-trigger" href="#gal">Gallery</a>
+			</div>
+			
+		</div>	
+	
+	<div class="col-lg-10 mx-auto">
+          <p class="lead mb-5"> </p> 
+		  <hr>
+        </div>
+		
+      <div class="constent-section-heading">
+        <h1 class="text-secondary mb-0">SUMMARY
+		<br>
+		~
+		</h1>
+		
       </div>
       <div class="row">
         <div class="column">
@@ -98,23 +118,20 @@
 			</p>
         </div>
       </div>
-	  <br><br>
-	  <div class="row">
-			<div class="column" >
-				<a class="btn btn-secondary btn-xl js-scroll-trigger" href="#gal">Gallery</a>
-			</div>
-			<div class="column">
-				<a class="btn btn-secondary btn-xl js-scroll-trigger" href="#vid">Video</a>
-			</div>
-		</div>
+	  <br>
 		
     </div>
   </section>
 	
   <!-- About -->
-  <section class="content-section bg-light" id="gal">
+  <section class="content-section bg-light">
     <div class="container text-center">
-	  <div class="row">
+	<video width="400" height="240" autoplay muted loop id="vid">
+		<source src="img/Portfolio1/DemoVid.mp4" type="video/mp4" >
+		Your browser does not support the video tag.
+	</video>
+	
+	  <div class="row" id="gal">
 		<div class="column">
 			<img src="img/Portfolio1/CompImg/p16.webp">
 			<img src="img/Portfolio1/CompImg/p12.webp" alt="img/Portfolio1/p12.jpg">
@@ -126,11 +143,6 @@
 			<img src="img/Portfolio1/CompImg/p14.webp" alt="img/Portfolio1/p14.jpg">
 		</div>
 	</div>
-	
-	<video width="400" height="240" autoplay muted id="vid">
-		<source src="img/Portfolio1/DemoVid.mp4" type="video/mp4" >
-		Your browser does not support the video tag.
-	</video>
 	
     </div>
   </section>

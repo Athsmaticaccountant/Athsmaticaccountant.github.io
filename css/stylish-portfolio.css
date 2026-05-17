@@ -18,6 +18,13 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+.btn-xll {
+  padding: 3.25rem 10.5rem;
+  border-radius: 30px;
+  font-weight: bolder !important;
+  font-size: 2rem !important;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -242,6 +249,16 @@ video {
 	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio11/with-wood.jpg");
 }
 .portfolio-eleven h1{
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.portfolio-twelve{
+	  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Portfolio12/EM3_overview.jpg");
+}
+.portfolio-twelve h1{
 	font-size: 4rem;
 	margin: 0;
 	padding: 0;
@@ -576,6 +593,8 @@ a:hover, a:focus, a:active {
   border-color: #ecb807 !important;
   color: #fff !important;
 }
+
+
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #ba9106 !important;
